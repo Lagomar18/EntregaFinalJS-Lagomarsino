@@ -1,0 +1,172 @@
+/* Variables de colores */
+:root {
+    --color-primario: #1381ca; /* Azul principal */
+    --color-secundario: #fff; /* Blanco */
+    --color-borde: #0a0a0a; /* Negro para bordes */
+    --color-botones: var(--color-primario); /* Azul para botones */
+    --color-botones-hover: #6f00ff; /* Azul más oscuro al pasar el mouse */
+    --color-texto: #000; /* Negro para texto */
+    --color-fondo: #f9f9f9; /* Gris claro para fondos */
+    --color-fondo-footer: var(--color-fondo); /* Mismo color que el fondo */
+    --color-borde-footer: var(--color-primario); /* Mismo color que el primario */
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+/* Estilos para el botón de búsqueda */
+#busqueda {
+    margin-bottom: 20px;
+}
+
+/* Estilos para las tarjetas de estudiantes */
+.contenedor-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.estudiante {
+    width: calc(33.33% - 20px); /* Ajuste para tres columnas con espacio entre ellas */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 10px; /* Borde redondeado */
+    border: 3px solid var(--color-borde);
+}
+
+.estudiante img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.estudiante-info {
+    padding: 10px;
+}
+
+.estudiante h3 {
+    margin: 0;
+}
+
+.estudiante button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--color-botones);
+    color: var(--color-secundario);
+    border: none;
+    border-top: 1px solid var(--color-secundario);
+    cursor: pointer;
+    border-radius: 1px;
+}
+
+.estudiante button:hover {
+    background-color: var(--color-botones-hover);
+}
+
+/* Estilos para los detalles de los estudiantes seleccionados */
+#detalles-estudiante {
+    display: none;
+    padding: 20px;
+}
+
+.estudiante-detalles {
+    background-color: var(--color-fondo);
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.estudiante-detalles h3 {
+    font-size: 1.2em;
+    color: var(--color-texto);
+    margin-bottom: 10px;
+}
+
+.estudiante-detalles p {
+    margin: 0 0 10px 0;
+    color: var(--color-texto);
+}
+
+.estudiante-detalles ul {
+    margin: 10px;
+    padding: 5px;
+}
+
+.estudiante-detalles ul li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+/* Estilos para el mensaje "Selecciona algún estudiante" */
+#detalles-estudiante p {
+    color: var(--color-texto); /* Color de texto */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: var(--color-fondo-footer);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: solid var(--color-borde-footer);
+}
+
+.registro img {
+    width: 50px;
+    height: 50px;
+}
+
+.contacto p {
+    margin: 2;
+}
+
+/* Estilos para el botón de limpieza */
+.boton-limpiar {
+    width: 15%;
+    padding: 10px;
+    background-color: var(--color-botones); /* Utiliza la misma variable de color que el botón de selección */
+    color: var(--color-secundario);
+    border: none;
+    border-top: 1px solid var(--color-secundario);
+    cursor: pointer;
+    border-radius: 1px;
+}
+
+.boton-limpiar:hover {
+    background-color: var(--color-botones-hover); /* Utiliza la misma variable de color al pasar el mouse que el botón de selección */
+}
+
+/* Media queries para pantallas medianas */
+@media screen and (max-width: 768px) {
+    .estudiante {
+        width: calc(50% - 20px); /* Dos columnas en pantallas medianas */
+    }
+}
+
+/* Media queries para pantallas pequeñas */
+@media screen and (max-width: 480px) {
+    .estudiante {
+        width: 100%; /* Una columna en pantallas pequeñas */
+    }
+}

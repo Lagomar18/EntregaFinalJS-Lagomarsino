@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguimiento Académico</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <h1>Colegio Provincial Padre José Zink</h1>
+    </header>
+    <main>
+        <section id="curso">
+            <h2>Cuarto Segunda</h2>
+            <input type="text" id="busqueda" placeholder="Filtrar estudiantes..." autocomplete="off">
+            <div id="estudiantes" class="contenedor-tarjetas">
+                <!-- Aquí se cargarán los estudiantes en tarjetas -->
+            </div>
+        </section>
+        <section id="estudiantes-seleccionados">
+            <h2>Estudiantes Seleccionados</h2>
+            <div id="detalles-estudiante">
+                <!-- Aquí se mostrará el mensaje "Selecciona algún estudiante" -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="registro">
+            <img src="./img/Registrado.png" alt="Registrado">
+        </div>
+        <div class="contacto">
+            <p>Desarrollado por Lagomar18</p>
+            <p>Contacto lagomarsinoatilio@gmail.com</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

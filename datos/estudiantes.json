@@ -1,0 +1,88 @@
+[
+    {
+        "nombre": "Esteban",
+        "foto": "./img/img01.jpg",
+        "telefono": "Cel: 1231233",
+        "tutor": "Tutor 1",
+        "telefonoTutor": "Cel: 1232134",
+        "asistencia": "90%", 
+        "materias": [
+            { "nombre": "Matemáticas", "nota": 8 },
+            { "nombre": "Ciencias", "nota": 7 },
+            { "nombre": "Historia", "nota": 9 },
+            { "nombre": "Biología", "nota": 9 }
+        ]
+    },
+    {
+        "nombre": "Jacinto",
+        "foto": "./img/img02.jpg",
+        "telefono": "Cel: 1231233",
+        "tutor": "Tutor 2",
+        "telefonoTutor": "Cel: 1232134",
+        "asistencia": "85%", 
+        "materias": [
+            { "nombre": "Matemáticas", "nota": 7 },
+            { "nombre": "Ciencias", "nota": 9 },
+            { "nombre": "Historia", "nota": 8 },
+            { "nombre": "Biología", "nota": 9 }
+        ]
+    },
+    {
+        "nombre": "Alberto",
+        "foto": "./img/img01.jpg",
+        "telefono": "Cel: 1231233",
+        "tutor": "Tutor 3",
+        "telefonoTutor": "Cel: 1232134",
+        "asistencia": "95%", 
+        "materias": [
+            { "nombre": "Matemáticas", "nota": 9 },
+            { "nombre": "Ciencias", "nota": 8 },
+            { "nombre": "Historia", "nota": 7 },
+            { "nombre": "Biología", "nota": 9 }
+        ]
+    },
+    {
+        "nombre": "Claudio",
+        "foto": "./img/img01.jpg",
+        "telefono": "Cel: 1231233",
+        "tutor": "Tutor 1",
+        "telefonoTutor": "Cel: 1232134",
+        "asistencia": "90%", 
+        "materias": [
+            { "nombre": "Matemáticas", "nota": 8 },
+            { "nombre": "Ciencias", "nota": 7 },
+            { "nombre": "Historia", "nota": 9 },
+            { "nombre": "Biología", "nota": 9 },
+            { "nombre": "Biología", "nota": 9 }
+        ]
+    },
+    {
+        "nombre": "Valentino",
+        "foto": "./img/img02.jpg",
+        "telefono": "Cel: 1231233",
+        "tutor": "Tutor 2",
+        "telefonoTutor": "Cel: 1232134",
+        "asistencia": "5%",
+        "materias": [
+            { "nombre": "Matemáticas", "nota": 1 },
+            { "nombre": "Ciencias", "nota": 5 },
+            { "nombre": "Historia", "nota": 3 },
+            { "nombre": "Biología", "nota": 4 }
+        ]
+    },
+    {
+        "nombre": "Benicio",
+        "foto": "./img/img01.jpg",
+        "telefono": "Cel: 1231233",
+        "tutor": "Tutor 3",
+        "telefonoTutor": "Cel: 1232134",
+        "asistencia": "95%", 
+        "materias": [
+            { "nombre": "Matemáticas", "nota": 1 },
+            { "nombre": "Ciencias", "nota": 5 },
+            { "nombre": "Historia", "nota": 3 },
+            { "nombre": "Biología", "nota": 4 }
+        ]
+    }
+
+]
