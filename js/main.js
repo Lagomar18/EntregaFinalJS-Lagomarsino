@@ -81,6 +81,13 @@ const seleccionarEstudiante = (estudiante) => {
             estudiantesSeleccionados.push(estudiante);
             localStorage.setItem('estudiantesSeleccionados', JSON.stringify(estudiantesSeleccionados));
             mostrarDetalles();
+
+            // Mostrar notificación utilizando Toastify
+            Toastify({
+                text: `${estudiante.nombre} fué agregado correctamente`,
+                duration: 3000,
+                gravity: "top", // Posición de la notificación en la pantalla
+            }).showToast();
         } else {
             Swal.fire("Solo se pueden agregar 5 estudiantes", "", "warning");
         }
